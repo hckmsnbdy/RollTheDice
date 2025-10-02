@@ -14,7 +14,6 @@ public class App {
             int roll2 = dice.roll();
 
             int sum = roll1 + roll2;
-//            System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum);
             System.out.printf("Roll %d: Dice 1 Value: %d | Dice 2 Value: %d | Sum: %d\n", i, roll1, roll2, sum);
 
             switch (sum) {
@@ -32,16 +31,6 @@ public class App {
                     break;
             }
 
-            //Showcasing both if and switch for handling sum comparisons
-//            if (sum == 2) {
-//                twoCounter++;
-//            } else if (sum == 4) {
-//                fourCounter++;
-//            } else if (sum == 6) {
-//                sixCounter++;
-//            } else if (sum == 7) {
-//                sevenCounter++;
-//            }
         }
 
         System.out.println("Count of two: " + twoCounter);
